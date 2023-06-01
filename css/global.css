@@ -32,6 +32,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+header {
+  padding: 3rem;
+}
+
 section {
   position: relative;
   padding: 7rem 1rem;
@@ -54,8 +58,14 @@ button {
   margin: auto;
 }
 
+/* @media screen and (max-width: 800px) {
+  .container {
+    width: 80%;
+  }
+} */
+
 .btn {
-  display: inline-block;
+  display: block;
   background: var(--blue-color);
   font-weight: 400;
   font-size: 2rem;
@@ -79,5 +89,5 @@ button {
 .sub-title {
   font-weight: 500;
   font-size: 3.2rem;
-  line-height: 2.8rem;
+  line-height: 3.8rem;
 }

@@ -1,6 +1,13 @@
 .nav__content {
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 599px) {
+  .nav__content {
+    justify-content: space-between;
+  }
 }
 .nav__img {
   width: 130px;
@@ -10,6 +17,30 @@
 .nav__links {
   display: flex;
   gap: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .nav__links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 12rem;
+    right: 0;
+    background: white;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    position: absolute;
+    gap: 2rem;
+    overflow: hidden;
+    height: 0;
+    transition: all 100ms;
+  }
+
+  .active {
+    height: 150px;
+    padding: 2rem;
+  }
 }
 
 .nav__links ul a {
@@ -30,11 +61,34 @@
   background: var(--blue-color);
   transition: all 200ms;
 }
+@media screen and (max-width: 600px) {
+  .nav__links ul a::before {
+    content: none;
+  }
+}
 
 .nav__links ul a:hover::before {
   width: 100%;
 }
 
 .nav__links ul a:hover {
+  color: var(--blue-color);
+}
+
+.nav__mobile {
+  background: transparent;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 599px) {
+  .nav__mobile {
+    display: block;
+  }
+}
+
+.nav__mobile i {
+  font-size: 3rem;
+}
+.nav__mobile i:hover {
   color: var(--blue-color);
 }

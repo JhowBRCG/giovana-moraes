@@ -5,6 +5,14 @@
   gap: 9rem;
 }
 
+@media screen and (max-width: 1000px) {
+  .about__container {
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 5rem;
+  }
+}
+
 .about__container h2 {
   margin-bottom: 2.5rem;
 }
@@ -21,4 +29,5 @@
 }
 
 .about__image {
+  height: 100%;
 }

@@ -13,6 +13,11 @@
   text-align: center;
 }
 
+@media screen and (max-width: 670px) {
+  .testimonials__head p {
+    text-align: initial;
+  }
+}
 .testimonials__container {
   margin-top: 7.1rem;
   overflow-x: hidden;
