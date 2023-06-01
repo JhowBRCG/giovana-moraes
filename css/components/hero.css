@@ -5,7 +5,6 @@
   grid-template-columns: 50% 40%;
   overflow: hidden;
   position: relative;
-  top: 10rem;
 }
 
 @media screen and (max-width: 885px) {
@@ -14,6 +13,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  .hero__container {
+    top: 7rem;
   }
 }
 
