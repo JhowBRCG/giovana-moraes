@@ -38,3 +38,13 @@
   line-height: 2.8rem;
   color: var(--black-opacity-color);
 }
+
+@media screen and (max-width: 530px) {
+  .testimonial {
+    padding: 5rem 5rem;
+  }
+  .testimonial__text p {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+  }
+}
