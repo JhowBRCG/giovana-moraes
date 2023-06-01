@@ -1,0 +1,24 @@
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 3.6rem;
+}
+
+.footer__links li a {
+  font-weight: 500;
+  font-size: 2rem;
+  color: var(--black-opacity-color);
+  text-transform: capitalize;
+}
+
+.footer__links li a:hover {
+  text-decoration: underline;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 4rem;
+  font-weight: 500;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.33);
+}

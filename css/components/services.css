@@ -1,0 +1,50 @@
+.services__head {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 2.5rem;
+}
+
+.services__cards {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  transition: all 200ms;
+  gap: 3rem;
+  margin-top: 125px;
+}
+
+.service__card {
+  display: flex;
+  gap: 0.9rem;
+  padding: 2rem;
+}
+
+.service__card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.123);
+}
+
+.service__image {
+  background: var(--blue-color);
+  padding: 1.1rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.service__image img {
+  width: 50px;
+  height: 50px;
+}
+
+.service__card h4 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.service__card p {
+  font-weight: 500;
+  line-height: 2rem;
+  color: var(--black-opacity-color);
+}

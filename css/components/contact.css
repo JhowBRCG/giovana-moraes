@@ -1,0 +1,96 @@
+.contact__container {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contacts__infos {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.contact__info {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  height: fit-content;
+  z-index: 2;
+}
+
+.contact__info i {
+  font-size: 2rem;
+  color: var(--black-opacity-color);
+}
+
+.contact__info p {
+  font-weight: 500;
+  line-height: 2.8rem;
+  color: var(--black-opacity-color);
+}
+
+.contact__info-socials {
+  display: flex;
+  gap: 1rem;
+  z-index: 2;
+}
+
+.contact__info-socials i {
+  font-size: 3.5rem;
+  color: var(--blue-color);
+}
+
+.form {
+  padding: 7rem 4rem 2rem;
+  background: white;
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.form h3 {
+  margin-bottom: 3.1rem;
+  text-align: center;
+}
+
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.form input,
+textarea {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 1.6rem 1.3rem;
+  border: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+form button {
+  text-align: initial;
+  padding: 0.7rem 1rem;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--black-opacity-color);
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.contact__bg {
+  position: absolute;
+  width: 100%;
+  height: 20rem;
+  background: #f9fafc;
+  inset: 0;
+  margin: auto;
+}
