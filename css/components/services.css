@@ -1,3 +1,7 @@
+#services {
+  padding-top: 15rem;
+}
+
 .services__head {
   display: grid;
   justify-content: center;

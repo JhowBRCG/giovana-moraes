@@ -39,7 +39,7 @@ header {
     right: 0;
     background: white;
     width: 100%;
-    text-align: center;
+    text-align: left;
     z-index: 3;
 
     gap: 2rem;
@@ -71,11 +71,6 @@ header {
   height: 0.2rem;
   background: var(--blue-color);
   transition: all 200ms;
-}
-@media screen and (max-width: 600px) {
-  .nav__links ul a::before {
-    content: none;
-  }
 }
 
 .nav__links ul a:hover::before {

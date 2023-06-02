@@ -1,3 +1,7 @@
+#testimonials {
+  padding-top: 15rem;
+}
+
 .testimonials__head {
   display: flex;
   flex-direction: column;
