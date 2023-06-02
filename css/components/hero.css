@@ -16,12 +16,6 @@
   }
 }
 
-@media screen and (max-width: 885px) {
-  .hero__container {
-    top: 8rem;
-  }
-}
-
 .hero__article {
   display: grid;
   gap: 2.7rem;
