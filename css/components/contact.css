@@ -40,6 +40,12 @@
   color: var(--black-opacity-color);
 }
 
+@media screen and (max-width: 400px) {
+  .contact__info p {
+    font-size: 1.3rem;
+  }
+}
+
 .contact__info-socials {
   display: flex;
   gap: 1rem;
