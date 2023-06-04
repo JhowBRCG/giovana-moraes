@@ -26,6 +26,6 @@
 @media screen and (max-width: 435px) {
   .footer__links li a,
   .footer__copyright {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
