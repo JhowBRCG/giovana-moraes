@@ -33,7 +33,7 @@
   align-items: center;
   background: var(--blue-color);
   padding: 10rem 10rem;
-  min-height: 30rem !important;
+  min-height: 35rem !important;
 }
 
 .testimonial__text p {
